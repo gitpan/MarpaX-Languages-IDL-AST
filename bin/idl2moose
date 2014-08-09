@@ -10,7 +10,7 @@ use IO::String;
 
 # ABSTRACT: IDL to perl's Moose translation
 
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 # PODNAME: idl2moose
 
@@ -36,7 +36,7 @@ my $result = $r->generate()->output();
 
 if ($output) {
     open(OUTPUT, '>', $output) || die "Cannot open $output, $!";
-    print $output $result;
+    print OUTPUT $result;
     close(OUTPUT) || warn "Cannot close $output, $!";
 } else {
     print $result;
@@ -54,7 +54,7 @@ idl2moose - IDL to perl's Moose translation
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 
@@ -105,7 +105,7 @@ Use of native floats. A false value will force Math::BigFloat. Default to a true
 
 =head1 EXAMPLES
 
- idl2moose dom.idl > dom.pm
+ idl2moose -i dom.idl > dom.pm
 
 =head1 SEE ALSO
 

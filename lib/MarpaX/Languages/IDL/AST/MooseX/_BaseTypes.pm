@@ -5,7 +5,7 @@ package MarpaX::Languages::IDL::AST::MooseX::_BaseTypes;
 
 # ABSTRACT: MooseX-IDL base types mapping
 
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 use MooseX::Types -declare => [
                                qw/_floatingPtType
@@ -59,7 +59,7 @@ MarpaX::Languages::IDL::AST::MooseX::_BaseTypes - MooseX-IDL base types mapping
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

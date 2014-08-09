@@ -6,7 +6,7 @@ use Scalar::Util qw/blessed/;
 
 # ABSTRACT: Translate an IDL source to an AST - parse tree value helpers
 
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 
 use constant {
@@ -72,7 +72,7 @@ MarpaX::Languages::IDL::AST::Value - Translate an IDL source to an AST - parse t
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 DESCRIPTION
 

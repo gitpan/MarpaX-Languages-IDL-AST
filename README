@@ -2,7 +2,7 @@ NAME
     MarpaX::Languages::IDL::AST - Translate an IDL source to an AST
 
 VERSION
-    version 0.001
+    version 0.002
 
 SYNOPSIS
         use MarpaX::Languages::IDL::AST;

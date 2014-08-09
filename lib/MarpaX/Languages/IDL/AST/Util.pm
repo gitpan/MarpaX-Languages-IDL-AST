@@ -5,7 +5,7 @@ package MarpaX::Languages::IDL::AST::Util;
 
 # ABSTRACT: Translate an IDL source to an AST - Tools
 
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.002'; # VERSION
 
 # Marpa follows Unicode recommendation, i.e. perl's \R, that cannot be in a character class
 our $NEWLINE_REGEXP = qr/(?>\x0D\x0A|\v)/;
@@ -57,7 +57,7 @@ MarpaX::Languages::IDL::AST::Util - Translate an IDL source to an AST - Tools
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 

@@ -30,13 +30,13 @@ no_index:
 provides:
   MarpaX::Languages::IDL::AST:
     file: lib/MarpaX/Languages/IDL/AST.pm
-    version: '0.001'
+    version: '0.002'
   MarpaX::Languages::IDL::AST::Util:
     file: lib/MarpaX/Languages/IDL/AST/Util.pm
-    version: '0.001'
+    version: '0.002'
   MarpaX::Languages::IDL::AST::Value:
     file: lib/MarpaX/Languages/IDL/AST/Value.pm
-    version: '0.001'
+    version: '0.002'
 requires:
   Carp: '0'
   Data::Dumper: '0'
@@ -66,4 +66,4 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MarpaX-Languages-IDL-AST
   homepage: https://metacpan.org/release/MarpaX-Languages-IDL-AST
   repository: git://github.com/jddurand/marpax-languages-idl-ast.git
-version: '0.001'
+version: '0.002'

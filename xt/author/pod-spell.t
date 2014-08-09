@@ -19,6 +19,6 @@ Languages
 IDL
 AST
 Value
+Util
 MooseX
 _BaseTypes
-Util
